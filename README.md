@@ -16,7 +16,7 @@ ipnet.R contains three functions:
       - prefix: the associated prefix
       - total_addresses: total addresses (usable hosts + network address + broadcast address)
       - usable_hosts: the number of usable hosts (total addresses - 2)
-      - wildacrd: the wildcard (used with routing protocols or access control lists)
+      - wildacard: the wildcard (used with routing protocols or access control lists)
       - binary_ip: The given IP in binary format
       - binary_subnet: The given subnet mask in binary format
    

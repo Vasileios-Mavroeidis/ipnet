@@ -2,7 +2,7 @@
 ipnet <- function(address=NULL) {
         list_of_packages <- c("xlsx", "stringr", "dplyr")
         for (p in list_of_packages) {if(p %in% rownames(installed.packages()) == FALSE) {
-                install.packages(i)
+                install.packages(p)
                 library(p, character.only = TRUE)} else library(p, character.only = TRUE)
         }
         
